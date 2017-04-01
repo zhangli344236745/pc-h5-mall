@@ -10,6 +10,10 @@
 本系统基于 ThinkPHP5 开发，
 详细开发文档参考 [ThinkPHP5完全开发手册](http://www.kancloud.cn/manual/thinkphp5)
 
+## 在线演示
+
+[https://mall.it120.cc/](https://mall.it120.cc/)
+
 ## 参与开发
 更多项目请关注 [https://github.com/EastWorld](https://github.com/EastWorld)。
 
