@@ -15,7 +15,7 @@
 define('APP_PATH', __DIR__ . '/../pcmall/');
 
 // 绑定当前访问到index模块
-define('BIND_MODULE','home');
+define('BIND_MODULE', 'home');
 
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';

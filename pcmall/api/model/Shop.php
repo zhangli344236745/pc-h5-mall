@@ -1,9 +1,12 @@
 <?php
 namespace app\api\model;
 
-use think\Model;
-
-class Shop extends Model
+class Shop
 {
 
+    public function product_list()
+    {
+        $api_url = config('api.url');
+        return $api_url;
+    }
 }

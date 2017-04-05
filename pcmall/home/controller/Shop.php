@@ -9,6 +9,9 @@ class Shop extends Controller
     {
         $type = input('type', 1, 'intval');
         $tpl = $type == 1 ? 'grid' : 'list';
+
+        $list = controller('api/shop')->product_list();
+        $this->assign('list', $list);
         return $this->fetch($tpl);
     }
 }

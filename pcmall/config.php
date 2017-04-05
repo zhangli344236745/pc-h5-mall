@@ -243,4 +243,9 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    //API配置
+    'api' => [
+        'url' => 'https://api.it120.cc/zale'
+    ],
 ];
